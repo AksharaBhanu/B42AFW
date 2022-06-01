@@ -49,3 +49,4 @@ class Base_Setup:
         yield
         print("\nClosing the browser")
         self.driver.quit()
+        print("End")
