@@ -8,7 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Base_Setup:
-
+    xl_path="test_data/data.xlsx"
     @pytest.fixture(autouse=True)
     def pre_condition(self):
         pfile = Properties()
