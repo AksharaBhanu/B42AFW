@@ -13,7 +13,7 @@ class Test_InvalidLogin(Base_Setup):
         pw=Excel.get_data(self.xl_path,"invalid_login",2,2)
 
 
-        # 1.	Enter invalid username: abcd
+        # 1.Enter invalid username: abcd
         login_page = LoginPage(self.driver)
         login_page.set_username(un)
 
